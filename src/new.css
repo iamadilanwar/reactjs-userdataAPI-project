@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* body {
+    background-color: #ecf0f3;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#data-container {
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin: 30px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+#data-container:hover {
+    background-color: #e31564;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0;
+    box-shadow: 0px 0px 2px#5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf, -8px -8px 15px #fff;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#content-container {
+    display: inline;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h2 {
+    top: -10px;
+    right: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+#box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.selected-page {
+    background-color: linear-gradient(135deg, #f093fb 0%, #ff0022 100%)!important;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(70, 70, 70, 0.25), inset -2px -2px 5px rgba(255, 255, 255, 0.5), inset 2px 2px 5px rgba(70, 70, 70, 0.25);
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: grab;
+    color: #e31564;
+}
+
+button {
+    background-color: #ecf0f3;
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(70, 70, 70, 0.4);
+    border-radius: 20px;
+    border: 2px solid #ececec;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.error {
+    color: red;
+    margin: 5px;
+}

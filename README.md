@@ -1,0 +1,1 @@
+Assignment to fecth data 
